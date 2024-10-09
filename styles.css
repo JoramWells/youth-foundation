@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffdf00;
+}
+
+#hero {
+    background: linear-gradient(to bottom right, #0066cc, #004080);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #ffdf00;
+    color: #004080;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#programs .programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.program {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #559ff3;
+    color: rgb(16, 9, 114);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer ul.socials {
+    list-style: none;
+    margin-top: 20px;
+}
+
+footer ul.socials li {
+    display: inline;
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+footer ul.socials li a {
+    color: rgb(16, 9, 114); /* Set text color */
+    text-decoration: none;
+    font-size: 0.8em; /* Set smaller font size for text */
+    font-weight: 100;
+}
+
+footer ul.socials li a:hover {
+    color: #ffdf00; /* Text color on hover */
+}
+
+.socials li i {
+    color: #0b2392; /* Dark blue color for the icons */
+    font-size: 1.5em; /* Size of the icon */
+    margin-right: 8px;
+}
+
+.socials li a:hover i {
+    color: #ffdf00; /* Change icon color on hover */
+}
