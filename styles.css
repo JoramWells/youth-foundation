@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: #000000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -78,7 +78,7 @@ header nav ul li a:hover {
 
 .section h2 {
     text-align: center;
-    color: #004080;
+    color: #ffffff;
     margin-bottom: 30px;
     font-size: 2rem;
 }
@@ -120,8 +120,8 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-color: #559ff3;
-    color: rgb(16, 9, 114);
+    background-color: #000000;
+    color: white;
     text-align: center;
     padding: 40px 20px;
 }
@@ -137,7 +137,7 @@ footer ul.socials li {
 }
 
 footer ul.socials li a {
-    color: rgb(16, 9, 114); /* Set text color */
+    color: white; /* Set text color */
     text-decoration: none;
     font-size: 0.8em; /* Set smaller font size for text */
     font-weight: 100;
@@ -155,4 +155,81 @@ footer ul.socials li a:hover {
 
 .socials li a:hover i {
     color: #ffdf00; /* Change icon color on hover */
+}
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Section Heading */
+h2 {
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+/* Team Grid Styling */
+.team-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Team Member Styling */
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    color: #004080;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* Button Styling */
+#more-members-btn {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+#more-members-btn:hover {
+    background-color: #002a5e;
+}
+
+/* Hidden Members Section */
+#more-members {
+    display: none;
 }
